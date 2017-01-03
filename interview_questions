@@ -1,0 +1,87 @@
+OS Concepts:
+Boot process in Linux, associated run levels, startup/shutdown scripts etc
+CPU:  Performance issues, multi-threading,  zombie process, basic commands pertaining to managing process – kill, debug etc
+Memory Management, swap concepts, page faults etc
+ 
+Networking:
+How 2 computers talk to each other over TCPIP
+OSI model and what each layer means
+DNS and DNS records  - what happens in the background when you lookup a domain or send a mail to user@domain  ; dig, nslookup etc
+Broadcast vs unicast
+HTTP vs HTTPS ; curl etc
+Difference between router and switch
+ 
+Basic Storage:
+SAN vs NAS
+Raid levels – 0, 1, 10, 5
+
+Linux related Question.
+1. What does following signal indicate in Linux kernel?
+SIGSEGV, SIGBUS, SIGABRT
+
+2. What is the lifecycle of process in Linux.
+
+
+
+Troubleshoot.
+1. What to do when endpoint is not responding.
+
+
+Deployment.
+1. How to design 0 down time deployment?
+2. What is green-blue deployment?
+3. What is CI-CD?
+
+AWS.
+1. Difference between SNS and SQS?
+2. What is IAM? and how does it helps?
+3. How spot instance works?
+4. What is S3 when to use it?
+5. How does VPC works and what is subnet?
+5. What is the difference between Network ACL and security group?
+
+
+Mesos/DCOS/Docker
+1. What is the architecture of DCOS?
+2. Architecture of DOCKER?
+3. When to use DOCKER?
+4. Type of filesystem supported by DOCKER?
+
+
+General Question
+1. How does HTTP work? How does a web page appear in a browser?
+
+Basically, to prove that you understand (at a high-level) the infrastructure you’ll be working with, as well as the ability to explain concepts to others. DevOps is about communication too, remember?
+
+2. What are some examples of how you might scale a write/read-heavy application? Why?
+
+Do you know how to scale different kinds of applications? How would you identify bottlenecks? Do you have a reasonable understanding of how to scale an entire enviornment, or migrate to the cloud (or another cloud) if necessary?
+
+3. Tell me about the worst-run/best-run outage you’ve been a part of. What made it bad/well-run?
+
+Take lessons from both failures and successes in dealing with outages. Remember, there's no shame in talking about the mistakes you've learned from.
+
+4. How would you assess how “deployable” a system is?
+
+How do you know when a deployment is ready? How would you manage that deployment?
+
+5. How would you prepare for a migration from one platform to another?
+
+Fairly self-explanatory, how do you handle transitions? How do you document the current state of your environment before moving, and how do you validate everything is as it should be after the fact? 
+
+6. What is the purpose of a post-mortem meeting?
+
+Do you know how to learn from mistakes? How do you get the most value out of post-mortems?
+
+7. How would you make key aspects of a software system traceable?
+
+So that you can figure out what happened quickly if/when something goes wrong. What types of monitoring and alerting are most important to you? What tooling do you use?
+
+8. How do you handle interruptions?
+
+While it’s going to be your job to stop interruptions, how you deal with them now is important for getting an idea of if you know how to fix them quickly and if you know how to make devs and ops work together.
+
+9. How would you deploy software to 5000 systems?
+
+Do you know how you would go about large-scale deployments?
+
