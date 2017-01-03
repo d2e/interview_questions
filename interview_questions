@@ -25,6 +25,7 @@ SIGSEGV, SIGBUS, SIGABRT
 
 4. How does the systemd works and how it is different from init system?
 
+5 How to find zombie process? / How any process become zombie? / If there are too many zombie process what kind of problem it could create?
 
 
 Troubleshoot.
