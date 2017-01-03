@@ -16,7 +16,7 @@ SAN vs NAS
 Raid levels – 0, 1, 10, 5
 
 Linux related Question.
-1. What does following signal indicate in Linux kernel?
+1. What does following signal indicate in Linux Process?
 SIGSEGV, SIGBUS, SIGABRT
 
 2. What is the lifecycle of process in Linux.
